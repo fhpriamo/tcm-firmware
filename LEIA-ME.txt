@@ -1,0 +1,30 @@
+TESTADOR DE CABOS MICROCONTROLADO
+=================================
+
+Conteúdo das pastas
+-------------------
+
+MCU1 - Firmware da MCU1 (Unidade microcontroladora 1)
+MCU2 - Firmware da MCU2 (Unidade microcontroladora 2)
+
+
+Versionamento
+-------------
+
+<<<REDIGIR>>>
+
+Instruções para a gravação dos firmwares
+----------------------------------------
+
+Para gravar qualquer um dos firmwares:
+
+1) Conecte o gravador (AVRisp mkII) à placa e energize-a;
+2) Abra o software CodeVision AVR;
+3) Abra o menu `file` e em seguida clique sobre a opção `Open`;
+4) Selecione o arquivo do projeto de acordo com a MCU a ser
+gravada e abra-o.
+	MCU1/mcu1.prj -> Arquivo de projeto do firmware da MCU1;
+	MCU2/mcu2.prj -> Arquivo de projeto do firmware da MCU2;
+5) Clique no ícone do CI (`Run the chip programmer`) para abrir
+a janela do programador;
+6) Clique no botão `Program All` e espere a gravação terminar;

@@ -1,0 +1,6 @@
+Chip type           : ATmega64
+Program type        : Application
+Clock frequency     : 16,000000 MHz
+Memory model        : Small
+External RAM size   : 0
+Data Stack size     : 1024
